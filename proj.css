@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(255, 248, 241);
+    padding-bottom: 20px;
+}
+.carousel-inner{
+    transform: translate(-8px, -8px);
+}
+.col-4{
+    background-image: url('https://wallpaperaccess.com/full/3468781.jpg');
+    height: 250px;
+    background-size: cover;
+    margin: 50px;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+#middle{
+    margin-left: 50px;
+}
+.cent{
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+.col-4 img{
+    transform: translate(230px,-120px);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.container .card{
+    margin-top: 50px;
+}
+.container .row .col .card{
+    padding-bottom: 15px;
+}
+.container .row .col .card img{
+    width: 100%;
+    height: 200px;
+}
+.container .card:hover{
+    box-shadow: 4px 4px 5px;
+    transform: scale(1.1);
+}
+
+.col-3{
+    border: 1px solid rgb(150, 150, 150);
+    background-image: url("https://5.imimg.com/data5/JW/DO/MY-23118021/cosco-tennis-ball-light-weight-1000x1000.png");
+    height: 437px;
+    width: 288px;
+    transform: translate(0px, 33px);
+    text-shadow: 2px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), -1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255)
+}
+#description{
+    margin-top: 100px;
+}
+#description i{
+    transform: scale(2.5);
+}
+.foot{
+    background-color:rgb(199, 231, 255);
+    margin-top: 100px;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+.foot .fa-brands{
+    transform: scale(1.5);
+    margin-left: 5px;
+    margin-right: 5px;
+}
